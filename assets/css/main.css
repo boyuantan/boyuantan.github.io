@@ -2692,6 +2692,10 @@
 
 /* Section/Article */
 
+	section.fullscreen {
+		height: 100vh;
+	}
+
 	section.special, article.special {
 		text-align: center;
 	}
@@ -6672,11 +6676,14 @@
 			overflow: hidden;
 			width: 22.5rem;
 			max-width: 75vw;
+			background-repeat:no-repeat;
+			background-position: center center;
 		}
 
 			.gallery.style2 article .image {
 				display: block;
 				width: 100%;
+				height: inherit;
 				border-radius: 0;
 			}
 
